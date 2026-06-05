@@ -1,0 +1,57 @@
+name: Sync Google Sheet to holidays.json
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # daily at midnight UTC
+  workflow_dispatch:       # manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # needed to push the updated JSON
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch CSV from Google Sheet
+        run: |
+          curl -L "https://docs.google.com/spreadsheets/d/${{ secrets.SHEET_ID }}/export?format=csv" -o holidays.csv
+
+      - name: Convert CSV to JSON (library format)
+        run: |
+          python << 'EOF'
+          import csv, json, datetime
+          holidays = {}
+          with open('holidays.csv', 'r') as f:
+              reader = csv.DictReader(f)
+              for row in reader:
+                  year = row.get('Year', '').strip()
+                  date = row.get('Date', '').strip()
+                  desc = row.get('Description', '').strip()
+                  if year and date:
+                      holidays.setdefault(year, []).append({
+                          "date": date,
+                          "description": desc
+                      })
+          output = {
+              "schema_version": 1,
+              "last_updated": datetime.date.today().isoformat(),
+              "source": "google_sheets_sync",
+              "holidays": holidays
+          }
+          with open('holidays.json', 'w') as f:
+              json.dump(output, f, indent=2)
+          EOF
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add holidays.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update holidays.json from sheet"
+          git push
