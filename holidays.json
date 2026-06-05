@@ -1,1 +1,17 @@
-
+{
+  "schema_version": 1,
+  "last_updated": "2026-06-05",
+  "source": "google_sheets_sync",
+  "holidays": {
+    "2024": [
+      {
+        "date": "2024-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2024-03-25",
+        "description": "Gemmie Day"
+      }
+    ]
+  }
+}
