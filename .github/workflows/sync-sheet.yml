@@ -26,26 +26,45 @@ jobs:
         run: |
           python << 'EOF'
           import csv, json, datetime
+
           holidays = {}
+          special_sessions = {}
+
           with open('holidays.csv', 'r') as f:
               reader = csv.DictReader(f)
               for row in reader:
                   year = row.get('Year', '').strip()
                   date = row.get('Date', '').strip()
                   desc = row.get('Description', '').strip()
-                  if year and date:
-                      holidays.setdefault(year, []).append({
-                          "date": date,
-                          "description": desc
-                      })
+                  row_type = row.get('Type', '').strip().lower()
+
+                  if not year or not date:
+                      continue
+
+                  entry = {"date": date, "description": desc}
+
+                  if row_type == 'special_session':
+                      special_sessions.setdefault(year, []).append(entry)
+                  else:
+                      # blank Type or 'holiday' both go into holidays
+                      holidays.setdefault(year, []).append(entry)
+
           output = {
               "schema_version": 1,
               "last_updated": datetime.date.today().isoformat(),
               "source": "google_sheets_sync",
-              "holidays": holidays
+              "holidays": holidays,
+              "special_sessions": special_sessions,
           }
+
           with open('holidays.json', 'w') as f:
               json.dump(output, f, indent=2)
+
+          # Print summary for the Actions log
+          total_holidays = sum(len(v) for v in holidays.values())
+          total_special = sum(len(v) for v in special_sessions.values())
+          print(f"holidays: {total_holidays} entries across {len(holidays)} years")
+          print(f"special_sessions: {total_special} entries across {len(special_sessions)} years")
           EOF
 
       - name: Commit and push if changed
@@ -53,5 +72,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add holidays.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update holidays.json from sheet"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update holidays.json from sheet [$(date -u +%Y-%m-%d)]"
           git push
