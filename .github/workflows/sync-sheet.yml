@@ -20,7 +20,14 @@ jobs:
 
       - name: Fetch CSV from Google Sheet
         run: |
-          curl -L "https://docs.google.com/spreadsheets/d/${{ secrets.SHEET_ID }}/export?format=csv" -o holidays.csv
+          curl -L -o holidays.csv "https://docs.google.com/spreadsheets/d/${{ secrets.SHEET_ID }}/export?format=csv"
+          echo "First 5 lines of CSV:"
+          head -n 5 holidays.csv
+          # Check if CSV contains any data (more than just header)
+          if [ $(wc -l < holidays.csv) -le 1 ]; then
+            echo "ERROR: CSV is empty or contains only header. Check sheet sharing and ID."
+            exit 1
+          fi
 
       - name: Convert CSV to JSON
         run: |
@@ -28,11 +35,13 @@ jobs:
           import csv, json, datetime
 
           holidays = {}
-          special_session = {}   # singular key
+          special_session = {}
 
           with open('holidays.csv', 'r') as f:
               reader = csv.DictReader(f)
-              for row in reader:
+              rows = list(reader)
+              print(f"Read {len(rows)} data rows from CSV")
+              for row in rows:
                   year = row.get('Year', '').strip()
                   date = row.get('Date', '').strip()
                   desc = row.get('Description', '').strip()
@@ -46,7 +55,6 @@ jobs:
                   if row_type == 'special_session':
                       special_session.setdefault(year, []).append(entry)
                   else:
-                      # 'holiday' or blank
                       holidays.setdefault(year, []).append(entry)
 
           output = {
@@ -54,7 +62,7 @@ jobs:
               "last_updated": datetime.date.today().isoformat(),
               "source": "google_sheets_sync",
               "holidays": holidays,
-              "special_session": special_session   # singular key
+              "special_session": special_session
           }
 
           with open('holidays.json', 'w') as f:
@@ -62,8 +70,11 @@ jobs:
 
           total_h = sum(len(v) for v in holidays.values())
           total_s = sum(len(v) for v in special_session.values())
-          print(f"holidays: {total_h} entries across {len(holidays)} years")
-          print(f"special_session: {total_s} entries across {len(special_session)} years")
+          print(f"✅ holidays: {total_h} entries across {len(holidays)} years")
+          print(f"✅ special_session: {total_s} entries across {len(special_session)} years")
+          if total_h == 0 and total_s == 0:
+              print("ERROR: No holidays or special sessions found in CSV. Exiting to avoid overwriting.")
+              exit(1)
           EOF
 
       - name: Commit and push if changed
