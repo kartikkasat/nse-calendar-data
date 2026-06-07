@@ -5,14 +5,14 @@ env:
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # daily at midnight UTC
-  workflow_dispatch:       # manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     permissions:
-      contents: write      # needed to push the updated JSON
+      contents: write
 
     steps:
       - name: Checkout repo
@@ -22,13 +22,13 @@ jobs:
         run: |
           curl -L "https://docs.google.com/spreadsheets/d/${{ secrets.SHEET_ID }}/export?format=csv" -o holidays.csv
 
-      - name: Convert CSV to JSON (library format)
+      - name: Convert CSV to JSON
         run: |
           python << 'EOF'
           import csv, json, datetime
 
           holidays = {}
-          special_sessions = {}
+          special_session = {}   # singular key
 
           with open('holidays.csv', 'r') as f:
               reader = csv.DictReader(f)
@@ -44,9 +44,9 @@ jobs:
                   entry = {"date": date, "description": desc}
 
                   if row_type == 'special_session':
-                      special_sessions.setdefault(year, []).append(entry)
+                      special_session.setdefault(year, []).append(entry)
                   else:
-                      # blank Type or 'holiday' both go into holidays
+                      # 'holiday' or blank
                       holidays.setdefault(year, []).append(entry)
 
           output = {
@@ -54,17 +54,16 @@ jobs:
               "last_updated": datetime.date.today().isoformat(),
               "source": "google_sheets_sync",
               "holidays": holidays,
-              "special_sessions": special_sessions,
+              "special_session": special_session   # singular key
           }
 
           with open('holidays.json', 'w') as f:
               json.dump(output, f, indent=2)
 
-          # Print summary for the Actions log
-          total_holidays = sum(len(v) for v in holidays.values())
-          total_special = sum(len(v) for v in special_sessions.values())
-          print(f"holidays: {total_holidays} entries across {len(holidays)} years")
-          print(f"special_sessions: {total_special} entries across {len(special_sessions)} years")
+          total_h = sum(len(v) for v in holidays.values())
+          total_s = sum(len(v) for v in special_session.values())
+          print(f"holidays: {total_h} entries across {len(holidays)} years")
+          print(f"special_session: {total_s} entries across {len(special_session)} years")
           EOF
 
       - name: Commit and push if changed
