@@ -5,14 +5,14 @@ env:
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'   # daily at midnight UTC
+  workflow_dispatch:       # manual trigger
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write      # needed to push the updated JSON
 
     steps:
       - name: Checkout repo
@@ -38,14 +38,30 @@ jobs:
           special_session = {}
 
           with open('holidays.csv', 'r') as f:
+              # Read CSV and normalize header to lowercase + strip spaces
               reader = csv.DictReader(f)
-              rows = list(reader)
-              print(f"Read {len(rows)} data rows from CSV")
+              original_headers = reader.fieldnames
+              normalized_headers = [h.strip().lower() for h in original_headers]
+              print(f"Original headers: {original_headers}")
+              print(f"Normalized headers: {normalized_headers}")
+
+              rows = []
+              for row in reader:
+                  normalized_row = {}
+                  for i, (key, value) in enumerate(row.items()):
+                      norm_key = normalized_headers[i]
+                      normalized_row[norm_key] = value.strip() if value else ''
+                  rows.append(normalized_row)
+
+              print(f"Read {len(rows)} data rows")
+              if rows:
+                  print(f"First normalized row: {rows[0]}")
+
               for row in rows:
-                  year = row.get('Year', '').strip()
-                  date = row.get('Date', '').strip()
-                  desc = row.get('Description', '').strip()
-                  row_type = row.get('Type', '').strip().lower()
+                  year = row.get('year', '')
+                  date = row.get('date', '')
+                  desc = row.get('description', '')
+                  row_type = row.get('type', '').strip().lower()
 
                   if not year or not date:
                       continue
@@ -55,6 +71,7 @@ jobs:
                   if row_type == 'special_session':
                       special_session.setdefault(year, []).append(entry)
                   else:
+                      # blank or 'holiday' (or anything else) goes into holidays
                       holidays.setdefault(year, []).append(entry)
 
           output = {
