@@ -2,6 +2,1572 @@
   "schema_version": 1,
   "last_updated": "2026-06-07",
   "source": "google_sheets_sync",
-  "holidays": {},
-  "special_session": {}
+  "holidays": {
+    "2001": [
+      {
+        "date": "2001-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2001-03-06",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2001-04-05",
+        "description": "Ashura"
+      },
+      {
+        "date": "2001-04-13",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2001-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2001-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2001-08-22",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2001-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2001-10-26",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2001-11-16",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2001-11-30",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2001-12-17",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2001-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2002": [
+      {
+        "date": "2002-03-25",
+        "description": "Ashura"
+      },
+      {
+        "date": "2002-03-29",
+        "description": "Good Friday; Holi"
+      },
+      {
+        "date": "2002-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2002-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2002-09-10",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2002-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2002-10-15",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2002-11-06",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2002-11-19",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2002-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2003": [
+      {
+        "date": "2003-02-13",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2003-03-18",
+        "description": "Holi"
+      },
+      {
+        "date": "2003-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2003-04-18",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2003-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2003-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2003-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2003-11-26",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2003-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2004": [
+      {
+        "date": "2004-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2004-02-02",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2004-03-02",
+        "description": "Ashura"
+      },
+      {
+        "date": "2004-04-09",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2004-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2004-10-22",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2004-11-15",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2004-11-26",
+        "description": "Guru Nanak Jayanti"
+      }
+    ],
+    "2005": [
+      {
+        "date": "2005-01-21",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2005-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2005-03-25",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2005-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2005-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2005-09-07",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2005-10-12",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2005-11-03",
+        "description": "Bhai Dooj"
+      },
+      {
+        "date": "2005-11-15",
+        "description": "Guru Nanak Jayanti"
+      }
+    ],
+    "2006": [
+      {
+        "date": "2006-01-11",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2006-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2006-02-09",
+        "description": "Ashura"
+      },
+      {
+        "date": "2006-03-15",
+        "description": "Holi"
+      },
+      {
+        "date": "2006-04-06",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2006-04-11",
+        "description": "Mahavir Jayanti; Prophet's Birthday"
+      },
+      {
+        "date": "2006-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti; Good Friday"
+      },
+      {
+        "date": "2006-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2006-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2006-10-02",
+        "description": "Dussehra; Gandhi Jayanti"
+      },
+      {
+        "date": "2006-10-24",
+        "description": "Bhai Dooj"
+      },
+      {
+        "date": "2006-10-25",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2006-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2007": [
+      {
+        "date": "2007-01-01",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2007-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2007-01-30",
+        "description": "Ashura"
+      },
+      {
+        "date": "2007-02-16",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2007-03-27",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2007-04-06",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2007-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2007-05-02",
+        "description": "Buddha Purnima"
+      },
+      {
+        "date": "2007-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2007-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2007-12-21",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2007-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2008": [
+      {
+        "date": "2008-03-06",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2008-03-20",
+        "description": "Prophet's Birthday"
+      },
+      {
+        "date": "2008-03-21",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2008-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2008-04-18",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2008-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2008-05-19",
+        "description": "Buddha Purnima"
+      },
+      {
+        "date": "2008-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2008-09-03",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2008-10-02",
+        "description": "Eid al-Fitr; Gandhi Jayanti"
+      },
+      {
+        "date": "2008-10-09",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2008-10-30",
+        "description": "Bhai Dooj"
+      },
+      {
+        "date": "2008-11-13",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2008-12-09",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2008-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2009": [
+      {
+        "date": "2009-01-08",
+        "description": "Ashura"
+      },
+      {
+        "date": "2009-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2009-02-23",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2009-03-10",
+        "description": "Prophet's Birthday"
+      },
+      {
+        "date": "2009-03-11",
+        "description": "Holi"
+      },
+      {
+        "date": "2009-04-03",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2009-04-07",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2009-04-10",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2009-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2009-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2009-05-08",
+        "description": "Buddha Purnima"
+      },
+      {
+        "date": "2009-09-21",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2009-09-28",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2009-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2009-10-19",
+        "description": "Bhai Dooj"
+      },
+      {
+        "date": "2009-11-02",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2009-11-27",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2009-12-25",
+        "description": "Christmas Day"
+      },
+      {
+        "date": "2009-12-28",
+        "description": "Ashura"
+      }
+    ],
+    "2010": [
+      {
+        "date": "2010-01-01",
+        "description": "New Year's Day"
+      },
+      {
+        "date": "2010-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2010-02-12",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2010-03-01",
+        "description": "Holi"
+      },
+      {
+        "date": "2010-03-24",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2010-04-02",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2010-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2010-09-10",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2010-11-17",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2010-12-17",
+        "description": "Ashura"
+      }
+    ],
+    "2011": [
+      {
+        "date": "2011-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2011-03-02",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2011-04-12",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2011-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2011-04-22",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2011-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2011-08-31",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2011-09-01",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2011-10-06",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2011-10-27",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2011-11-07",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2011-11-10",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2011-12-06",
+        "description": "Ashura"
+      }
+    ],
+    "2012": [
+      {
+        "date": "2012-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2012-02-20",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2012-03-08",
+        "description": "Holi"
+      },
+      {
+        "date": "2012-04-05",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2012-04-06",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2012-05-01",
+        "description": "May Day"
+      },
+      {
+        "date": "2012-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2012-08-20",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2012-09-19",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2012-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2012-10-24",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2012-11-14",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2012-11-28",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2012-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2013": [
+      {
+        "date": "2013-03-27",
+        "description": "Holi"
+      },
+      {
+        "date": "2013-03-29",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2013-04-19",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2013-04-24",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2013-05-01",
+        "description": "May Day"
+      },
+      {
+        "date": "2013-08-09",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2013-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2013-09-09",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2013-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2013-10-16",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2013-11-04",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2013-11-14",
+        "description": "Ashura"
+      },
+      {
+        "date": "2013-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2014": [
+      {
+        "date": "2014-02-27",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2014-03-17",
+        "description": "Holi"
+      },
+      {
+        "date": "2014-04-08",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2014-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2014-04-18",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2014-05-01",
+        "description": "May Day"
+      },
+      {
+        "date": "2014-07-29",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2014-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2014-08-29",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2014-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2014-10-03",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2014-10-06",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2014-10-24",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2014-11-04",
+        "description": "Ashura"
+      },
+      {
+        "date": "2014-11-06",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2014-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2015": [
+      {
+        "date": "2015-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2015-02-17",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2015-03-06",
+        "description": "Holi"
+      },
+      {
+        "date": "2015-04-02",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2015-04-03",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2015-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2015-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2015-09-17",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2015-09-25",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2015-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2015-10-22",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2015-10-23",
+        "description": "Ashura"
+      },
+      {
+        "date": "2015-11-12",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2015-11-25",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2015-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2016": [
+      {
+        "date": "2016-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2016-03-07",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2016-03-24",
+        "description": "Holi"
+      },
+      {
+        "date": "2016-03-25",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2016-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2016-04-15",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2016-04-19",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2016-07-06",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2016-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2016-09-05",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2016-09-13",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2016-10-11",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2016-10-12",
+        "description": "Ashura"
+      },
+      {
+        "date": "2016-10-31",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2016-11-14",
+        "description": "Guru Nanak Jayanti"
+      }
+    ],
+    "2017": [
+      {
+        "date": "2017-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2017-02-24",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2017-03-13",
+        "description": "Holi"
+      },
+      {
+        "date": "2017-04-04",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2017-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti; Good Friday"
+      },
+      {
+        "date": "2017-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2017-06-26",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2017-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2017-08-25",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2017-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2017-10-20",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2017-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2018": [
+      {
+        "date": "2018-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2018-02-13",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2018-03-02",
+        "description": "Holi"
+      },
+      {
+        "date": "2018-03-29",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2018-03-30",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2018-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2018-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2018-08-22",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2018-09-13",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2018-09-20",
+        "description": "Ashura"
+      },
+      {
+        "date": "2018-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2018-10-18",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2018-11-08",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2018-11-23",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2018-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2019": [
+      {
+        "date": "2019-03-04",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2019-03-21",
+        "description": "Holi"
+      },
+      {
+        "date": "2019-04-17",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2019-04-19",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2019-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2019-06-05",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2019-08-12",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2019-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2019-09-02",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2019-09-10",
+        "description": "Ashura"
+      },
+      {
+        "date": "2019-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2019-10-08",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2019-10-28",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2019-11-12",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2019-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2020": [
+      {
+        "date": "2020-02-21",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2020-03-10",
+        "description": "Holi"
+      },
+      {
+        "date": "2020-04-02",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2020-04-06",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2020-04-10",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2020-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2020-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2020-05-25",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2020-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2020-11-16",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2020-11-30",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2020-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2021": [
+      {
+        "date": "2021-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2021-03-11",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2021-03-29",
+        "description": "Holi"
+      },
+      {
+        "date": "2021-04-02",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2021-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2021-04-21",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2021-05-13",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2021-07-21",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2021-08-19",
+        "description": "Ashura"
+      },
+      {
+        "date": "2021-09-10",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2021-10-15",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2021-11-05",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2021-11-19",
+        "description": "Guru Nanak Jayanti"
+      }
+    ],
+    "2022": [
+      {
+        "date": "2022-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2022-03-01",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2022-03-18",
+        "description": "Holi"
+      },
+      {
+        "date": "2022-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti; Mahavir Jayanti"
+      },
+      {
+        "date": "2022-04-15",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2022-05-03",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2022-08-09",
+        "description": "Ashura"
+      },
+      {
+        "date": "2022-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2022-08-31",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2022-10-05",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2022-10-26",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2022-11-08",
+        "description": "Guru Nanak Jayanti"
+      }
+    ],
+    "2023": [
+      {
+        "date": "2023-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2023-03-07",
+        "description": "Holi"
+      },
+      {
+        "date": "2023-03-30",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2023-04-04",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2023-04-07",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2023-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2023-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2023-06-28",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2023-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2023-09-19",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2023-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2023-10-24",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2023-11-14",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2023-11-27",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2023-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2024": [
+      {
+        "date": "2024-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2024-03-08",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2024-03-25",
+        "description": "Holi"
+      },
+      {
+        "date": "2024-03-29",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2024-04-11",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2024-04-17",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2024-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2024-06-17",
+        "description": "Eid al-Adha"
+      },
+      {
+        "date": "2024-07-17",
+        "description": "Ashura"
+      },
+      {
+        "date": "2024-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2024-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2024-11-15",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2024-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2025": [
+      {
+        "date": "2025-02-26",
+        "description": "Maha Shivaratri"
+      },
+      {
+        "date": "2025-03-14",
+        "description": "Holi"
+      },
+      {
+        "date": "2025-03-31",
+        "description": "Eid al-Fitr"
+      },
+      {
+        "date": "2025-04-10",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2025-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2025-04-18",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2025-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2025-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2025-08-27",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2025-10-02",
+        "description": "Dussehra; Gandhi Jayanti"
+      },
+      {
+        "date": "2025-10-22",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2025-11-05",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2025-12-25",
+        "description": "Christmas Day"
+      }
+    ],
+    "2026": [
+      {
+        "date": "2026-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2026-03-04",
+        "description": "Holi"
+      },
+      {
+        "date": "2026-03-26",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "2026-03-31",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2026-04-03",
+        "description": "Good Friday"
+      },
+      {
+        "date": "2026-04-14",
+        "description": "Dr. B. R. Ambedkar Jayanti"
+      },
+      {
+        "date": "2026-05-01",
+        "description": "Maharashtra Day"
+      },
+      {
+        "date": "2026-05-28",
+        "description": "Eid al-Adha (estimated)"
+      },
+      {
+        "date": "2026-06-26",
+        "description": "Ashura (estimated)"
+      },
+      {
+        "date": "2026-09-14",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2026-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2026-10-20",
+        "description": "Dussehra"
+      },
+      {
+        "date": "2026-11-10",
+        "description": "Diwali Balipratipada"
+      },
+      {
+        "date": "2026-11-24",
+        "description": "Guru Nanak Jayanti"
+      },
+      {
+        "date": "2026-12-25",
+        "description": "Christmas Day"
+      }
+    ]
+  },
+  "special_session": {
+    "2001": [
+      {
+        "date": "2001-11-14",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2002": [
+      {
+        "date": "2002-11-04",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2003": [
+      {
+        "date": "2003-10-25",
+        "description": "Weekend"
+      }
+    ],
+    "2004": [
+      {
+        "date": "2004-11-12",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2005": [
+      {
+        "date": "2005-11-01",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2006": [
+      {
+        "date": "2006-10-21",
+        "description": "Weekend"
+      }
+    ],
+    "2007": [
+      {
+        "date": "2007-11-09",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2008": [
+      {
+        "date": "2008-10-28",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2009": [
+      {
+        "date": "2009-10-17",
+        "description": "Weekend"
+      }
+    ],
+    "2010": [
+      {
+        "date": "2010-11-05",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2011": [
+      {
+        "date": "2011-10-26",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2012": [
+      {
+        "date": "2012-11-13",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2013": [
+      {
+        "date": "2013-11-03",
+        "description": "Weekend"
+      }
+    ],
+    "2014": [
+      {
+        "date": "2014-10-23",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2015": [
+      {
+        "date": "2015-11-11",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2016": [
+      {
+        "date": "2016-10-30",
+        "description": "Weekend"
+      }
+    ],
+    "2017": [
+      {
+        "date": "2017-10-19",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2018": [
+      {
+        "date": "2018-11-07",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2019": [
+      {
+        "date": "2019-10-27",
+        "description": "Weekend"
+      }
+    ],
+    "2020": [
+      {
+        "date": "2020-11-14",
+        "description": "Weekend"
+      }
+    ],
+    "2021": [
+      {
+        "date": "2021-11-04",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2022": [
+      {
+        "date": "2022-10-24",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2023": [
+      {
+        "date": "2023-11-12",
+        "description": "Weekend"
+      }
+    ],
+    "2024": [
+      {
+        "date": "2024-11-01",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2025": [
+      {
+        "date": "2025-10-21",
+        "description": "Diwali Lakshmi Puja"
+      }
+    ],
+    "2026": [
+      {
+        "date": "2026-11-08",
+        "description": "Weekend"
+      }
+    ]
+  }
 }
