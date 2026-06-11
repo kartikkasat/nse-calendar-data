@@ -3,6 +3,288 @@
   "last_updated": "2026-06-11",
   "source": "google_sheets_sync",
   "holidays": {
+    "1996": [
+      {
+        "date": "1996-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "1996-02-21",
+        "description": "Mahashivratri"
+      },
+      {
+        "date": "1996-03-05",
+        "description": "Holi / Dhuleti"
+      },
+      {
+        "date": "1996-03-20",
+        "description": "Gudi Padwa / Ugadi"
+      },
+      {
+        "date": "1996-04-05",
+        "description": "Good Friday"
+      },
+      {
+        "date": "1996-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "1996-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "1996-10-21",
+        "description": "Dussehra / Vijayadashami"
+      },
+      {
+        "date": "1996-10-30",
+        "description": "Diwali (Laxmi Puja)"
+      },
+      {
+        "date": "1996-11-12",
+        "description": "Gurunanak Jayanti"
+      },
+      {
+        "date": "1996-12-25",
+        "description": "Christmas"
+      },
+      {
+        "date": "1996-12-27",
+        "description": "Exchange Holiday (Year-end)"
+      },
+      {
+        "date": "1996-12-30",
+        "description": "Exchange Holiday (Year-end)"
+      }
+    ],
+    "1997": [
+      {
+        "date": "1997-01-23",
+        "description": "Exchange Holiday"
+      },
+      {
+        "date": "1997-03-07",
+        "description": "Holi / Dhuleti"
+      },
+      {
+        "date": "1997-03-24",
+        "description": "Gudi Padwa"
+      },
+      {
+        "date": "1997-03-28",
+        "description": "Good Friday"
+      },
+      {
+        "date": "1997-04-08",
+        "description": "Ram Navami"
+      },
+      {
+        "date": "1997-04-14",
+        "description": "Dr. Ambedkar Jayanti"
+      },
+      {
+        "date": "1997-04-16",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "1997-04-18",
+        "description": "Ramzan Eid (Eid ul-Fitr)"
+      },
+      {
+        "date": "1997-05-01",
+        "description": "Maharashtra Day / Labour Day"
+      },
+      {
+        "date": "1997-07-18",
+        "description": "Bakri Eid (Eid ul-Adha)"
+      },
+      {
+        "date": "1997-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "1997-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "1997-10-03",
+        "description": "Dussehra / Vijayadashami"
+      },
+      {
+        "date": "1997-10-06",
+        "description": "Diwali (Dhanteras)"
+      },
+      {
+        "date": "1997-10-07",
+        "description": "Diwali (Narak Chaturdashi / Laxmi Puja)"
+      },
+      {
+        "date": "1997-10-08",
+        "description": "Diwali (Balipratipada)"
+      },
+      {
+        "date": "1997-10-31",
+        "description": "Gurunanak Jayanti"
+      },
+      {
+        "date": "1997-11-14",
+        "description": "Children's Day / Exchange Holiday"
+      },
+      {
+        "date": "1997-12-25",
+        "description": "Christmas"
+      }
+    ],
+    "1998": [
+      {
+        "date": "1998-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "1998-02-16",
+        "description": "Mahashivratri"
+      },
+      {
+        "date": "1998-03-13",
+        "description": "Holi / Dhuleti"
+      },
+      {
+        "date": "1998-04-08",
+        "description": "Gudi Padwa"
+      },
+      {
+        "date": "1998-04-14",
+        "description": "Dr. Ambedkar Jayanti / Mahavir Jayanti"
+      },
+      {
+        "date": "1998-05-01",
+        "description": "Maharashtra Day / Labour Day"
+      },
+      {
+        "date": "1998-05-07",
+        "description": "Buddha Purnima"
+      },
+      {
+        "date": "1998-08-26",
+        "description": "Janmashtami"
+      },
+      {
+        "date": "1998-10-01",
+        "description": "Dussehra (Maha Navami) / Exchange Holiday"
+      },
+      {
+        "date": "1998-10-02",
+        "description": "Gandhi Jayanti / Dussehra (Vijayadashami)"
+      },
+      {
+        "date": "1998-10-21",
+        "description": "Diwali (Laxmi Puja)"
+      },
+      {
+        "date": "1998-11-04",
+        "description": "Gurunanak Jayanti"
+      },
+      {
+        "date": "1998-11-25",
+        "description": "Exchange Holiday"
+      },
+      {
+        "date": "1998-12-25",
+        "description": "Christmas"
+      }
+    ],
+    "1999": [
+      {
+        "date": "1999-01-20",
+        "description": "Exchange Holiday"
+      },
+      {
+        "date": "1999-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "1999-03-02",
+        "description": "Mahashivratri"
+      },
+      {
+        "date": "1999-03-29",
+        "description": "Gudi Padwa"
+      },
+      {
+        "date": "1999-04-02",
+        "description": "Good Friday"
+      },
+      {
+        "date": "1999-04-14",
+        "description": "Dr. Ambedkar Jayanti / Mahavir Jayanti"
+      },
+      {
+        "date": "1999-04-27",
+        "description": "Buddha Purnima"
+      },
+      {
+        "date": "1999-09-13",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "1999-10-19",
+        "description": "Dussehra / Vijayadashami"
+      },
+      {
+        "date": "1999-11-08",
+        "description": "Gurunanak Jayanti"
+      },
+      {
+        "date": "1999-11-23",
+        "description": "Exchange Holiday"
+      },
+      {
+        "date": "1999-12-31",
+        "description": "Exchange Holiday (Y2K precaution)"
+      }
+    ],
+    "2000": [
+      {
+        "date": "2000-01-26",
+        "description": "Republic Day"
+      },
+      {
+        "date": "2000-03-17",
+        "description": "Holi / Dhuleti"
+      },
+      {
+        "date": "2000-03-20",
+        "description": "Exchange Holiday (Holi extended)"
+      },
+      {
+        "date": "2000-04-14",
+        "description": "Good Friday / Dr. Ambedkar Jayanti"
+      },
+      {
+        "date": "2000-04-21",
+        "description": "Mahavir Jayanti"
+      },
+      {
+        "date": "2000-05-01",
+        "description": "Maharashtra Day / Labour Day"
+      },
+      {
+        "date": "2000-08-15",
+        "description": "Independence Day"
+      },
+      {
+        "date": "2000-09-01",
+        "description": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2000-10-02",
+        "description": "Gandhi Jayanti"
+      },
+      {
+        "date": "2000-12-25",
+        "description": "Christmas"
+      }
+    ],
     "2001": [
       {
         "date": "2001-01-26",
@@ -1413,6 +1695,58 @@
     ]
   },
   "special_session": {
+    "1996": [
+      {
+        "date": "1996-11-10",
+        "description": "Diwali (Balipratipada) - Muhurat Trading Session"
+      }
+    ],
+    "1997": [
+      {
+        "date": "1997-03-01",
+        "description": "NSE Special Saturday Session (Holi / Budget)"
+      },
+      {
+        "date": "1997-04-12",
+        "description": "NSE Special Saturday Session"
+      }
+    ],
+    "1998": [
+      {
+        "date": "1998-10-31",
+        "description": "Diwali (Balipratipada) - Muhurat Trading Session"
+      },
+      {
+        "date": "1998-11-21",
+        "description": "NSE Special Saturday Session"
+      },
+      {
+        "date": "1998-11-28",
+        "description": "NSE Special Saturday Session"
+      }
+    ],
+    "1999": [
+      {
+        "date": "1999-02-27",
+        "description": "NSE Special Saturday Session (Union Budget Day)"
+      },
+      {
+        "date": "1999-03-20",
+        "description": "NSE Special Saturday Session"
+      },
+      {
+        "date": "1999-04-17",
+        "description": "NSE Special Saturday Session"
+      },
+      {
+        "date": "1999-10-23",
+        "description": "Diwali (Laxmi Puja) - Muhurat Trading Session"
+      },
+      {
+        "date": "1999-11-07",
+        "description": "Diwali (Balipratipada) - Muhurat Trading Session"
+      }
+    ],
     "2001": [
       {
         "date": "2001-11-14",
