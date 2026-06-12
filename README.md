@@ -4,7 +4,11 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/nse-calendar?color=blue)](https://pypi.org/project/nse-calendar/)
 [![Python versions](https://img.shields.io/pypi/pyversions/nse-calendar)](https://pypi.org/project/nse-calendar/)
+[![GitHub Stars](https://img.shields.io/github/stars/kartikkasat/nse-calendar-data?style=flat&color=lightblue)](https://github.com/kartikkasat/nse-calendar-data/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/kartikkasat/nse-calendar-data?style=flat&color=yellow)](https://github.com/kartikkasat/nse-calendar-data/network/members)
+[![Pepy Total Downloads](https://img.shields.io/pepy/dt/nse-calendar?color=blue)](https://pypi.org/project/nse-calendar/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![PyPI - Implementation](https://img.shields.io/pypi/implementation/nse-calendar?color=blue)](https://pypi.org/project/nse-calendar/)
 
  **Features:** Holiday detection, trading day arithmetic, flexible date parsing/formatting, and seamless Pandas integration. 
  **Zero mandatory dependencies.**
@@ -257,4 +261,4 @@ MIT License. See [LICENSE](https://www.google.com/search?q=LICENSE) for details.
 
 ---
 
-Maintained with ❤️ by [*Kartik Kasat*](https://github.com/kartikkasat)
+Maintained with ❤️ by [Kartik Kasat*](https://github.com/kartikkasat)
