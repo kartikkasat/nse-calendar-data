@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-06-11",
+  "last_updated": "2026-06-12",
   "source": "google_sheets_sync",
   "holidays": {
     "1996": [
